@@ -1,0 +1,43 @@
+body {
+    background-image: url("main_bg.jpg");
+    background-size: 100%;
+    background-repeat: none;
+    width: auto;
+
+}
+
+#navbar {
+    font-size: 170%;
+    width: auto;
+    margin: 20px auto auto auto;
+    text-align: center;
+    background: tomato;
+    padding: 20px;
+}
+
+#navbar a {
+    font-size: 100%;
+    margin: auto;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#navbar a:link, #navbar a:visited {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navbar a:hover, #navbar a:active {
+    background-color: #C2FFC2;
+}
+
+#donut_hand {
+    float: left;
+    margin-top: 300px;
+}
