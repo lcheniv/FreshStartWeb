@@ -1,43 +1,91 @@
 body {
     background-image: url("main_bg.jpg");
     background-size: 100%;
-    background-repeat: none;
+    background-repeat: no-repeat;
     width: auto;
-
+    height: auto;
 }
 
 #navbar {
-    font-size: 170%;
-    width: auto;
-    margin: 20px auto auto auto;
+    font-size: 150%;
+    width: 50%;
+    margin: auto;
+    margin-left: 40%;
     text-align: center;
-    background: tomato;
     padding: 20px;
 }
 
 #navbar a {
     font-size: 100%;
-    margin: auto;
+    margin-left: 10px;
     padding: 20px;
     text-decoration: none;
     font-family: sans-serif;
+    border-radius: 15px 50px 30px;
 }
 
 #navbar a:link, #navbar a:visited {
-    background-color: white;
-    color: black;
+    color: white;
+    border: 2px solid white;
     font-size: 20px;
-    padding: 14px 16px;
+    padding: 24px 26px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
 #navbar a:hover, #navbar a:active {
-    background-color: #C2FFC2;
+    background-color: white;
+    color:black;
+    font-size: 115%;
+    font-weight: bold;
 }
 
 #donut_hand {
+    margin-left: 15%;   
     float: left;
-    margin-top: 300px;
+    z-index: -1;
 }
+
+audio {
+    margin-left: 40%;
+    position: fixed;
+    margin-top: 28%
+}
+
+#header {
+    margin-left: 20%;
+    margin-top: 25%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#colorize {
+    letter-spacing: 5px;
+    color: yellow;
+}
+
+#description > p { 
+    clear: both;
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#description {
+    clear: both;
+    margin-left: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#description2 {
+    z-index: 1;
+    margin-top: 5%;
+}
+
+
+
