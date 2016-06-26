@@ -1,0 +1,135 @@
+
+body {
+    background-image: url("lawrence_headerbg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    font-size: 150%;
+    position: fixed;
+}
+
+#navbar a {
+    font-size: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 15px 50px 30px;
+}
+
+#navbar img {
+    width: 50%;
+    height: 50%;
+}
+
+#navbar a:link, #navbar a:visited {
+    color: white;
+    border: 3px solid white;
+    font-size: 15px;
+    padding: 24px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#navbar a:hover, #navbar a:active {
+    background-color: white;
+    color:black;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+#images {
+    margin: auto;
+    margin-left: 23%;
+    margin-top: -8%;
+}
+
+#header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 115%;
+}
+
+#tvshows_section{
+    background: #363636;
+    width: auto;
+    height: 500px;
+}
+
+#tvshow_header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 34%;
+    margin-top: 5%;
+    padding-top: 3%;
+}
+
+
+#tvshows_section > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 135%;
+    margin-top: 4%;
+}
+
+audio {
+    margin-left: 42%;
+}
+
+#tvshows_viewer {
+    background: #efca81;
+    width: auto;
+    height: 10000px;
+    margin-top: 1%;
+}
+
+#tvshows_viewer h1 {
+    color: black;
+    border: 3px solid black;
+    background: cadetblue;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tvshows_viewer h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 200%;
+    margin-top: 5%;
+}
+
+#tvshows_viewer p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#tvshows_viewer img {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#movies {
+    background: #363636;
+    color: white;
+    padding-top: 2%;
+}
+
+#youtube {
+    background: #e10505;
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
