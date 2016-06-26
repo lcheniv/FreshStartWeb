@@ -129,7 +129,21 @@ audio {
 }
 
 #youtube {
-    background: #e10505;
+    background: #fa584c;
     padding-top: 3%;
     padding-bottom: 10%;
+}
+
+#tvshows_section a:hover {
+    color: yellow;
+    font-size: 110%;
+}
+
+#tvshows_section a {
+    text-decoration: none;
+}
+
+#freshstart_footer {
+    letter-spacing: 10px;
+    font-size: 115%;
 }
