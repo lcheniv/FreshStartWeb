@@ -141,9 +141,13 @@ audio {
 
 #tvshows_section a {
     text-decoration: none;
+    color: darkorange;
 }
 
-#freshstart_footer {
-    letter-spacing: 10px;
-    font-size: 115%;
+#footer {
+    padding: 30px;
+    margin-top: 5%;
+    letter-spacing: 30px;
+    color: white;
+    font-size: 160%;
 }
