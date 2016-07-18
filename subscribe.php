@@ -68,6 +68,8 @@
 
             <?php
 
+			if(isset($_POST['send'])){
+			
               $to = $_REQUEST['sendto'];  
               $from = $_REQUEST['Email'];  
               $headers = "From: $from";  
@@ -79,38 +81,40 @@
               $fields{"Message"} = "Message";   
               $body = "We have received the following information:\n\n"; 
 
+
               foreach($fields as $a => $b){ 
 
                   $body .= sprintf("%20s: %s\n",$b,$_REQUEST[$a]);
 
               }   
 
-                   $headers2 = "From: noreply@freshstart.com";  
-                   $subject2 = "Thank you for contacting the Fresh Start team!";  
-                   $autoreply = "Thank you for contacting us. We hope you enjoy our selection as much as we have. From time to time we will send you e-mails"
-                                . "letting you know that we have added a new feature or added more of a selection." 
-                                . "If you have any more questions, contact us at lcheniv@gmail.com or salil.depsi@gmail.com."
-                                . "Or return to http://codd.cs.gsu.edu/~lchen21/Project1/main.html and fill out another sign-up form.";
-                   
-                   if($from == '') {
-                       
-                       print "Please enter an e-mail. It is a required field.";
+			   $headers2 = "From: noreply@freshstart.com";  
+			   $subject2 = "Thank you for contacting the Fresh Start team!";  
+			   $autoreply = "Thank you for contacting us. We hope you enjoy our selection as much as we have. From time to time we will send you e-mails"
+							. "letting you know that we have added a new feature or added more of a selection." 
+							. "If you have any more questions, contact us at lcheniv@gmail.com or salil.depsi@gmail.com."
+							. "Or return to http://codd.cs.gsu.edu/~lchen21/Project1/main.html and fill out another sign-up form.";
+			   
+			   if($from == '') {
+				   
+				   print "Please enter an e-mail. It is a required field.";
 
-                   } else {  
-                                    $send = mail($to, $subject, $body, $headers);  
-                                    $send2 = mail($from, $subject2, $autoreply, $headers2);  
-                        
-                        if($send)  {
+			   } else {  
+								$send = mail($to, $subject, $body, $headers);  
+								$send2 = mail($from, $subject2, $autoreply, $headers2);  
+					
+					if($send)  {
 
-                            header( "Location: http://codd.cs.gsu.edu/~lchen21/Project1/thankyou.html" );
+						header( "Location: http://codd.cs.gsu.edu/~lchen21/Project1/thankyou.html" );
 
-                        }  else  {
+					}  else  {
 
-                            print "We encountered an issue, please try again later."; 
+						print "We encountered an issue, please try again later."; 
 
-                    } 
-                } 
+					} 
+				} 
             
+			}
             ?>
 
             </div>
