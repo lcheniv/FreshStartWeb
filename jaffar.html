@@ -22,14 +22,16 @@
                     <td><a href="#tvshows">Shows</a></td>
                     <td><a href="#movies">Movies</a></td>
                     <td><a href="#youtube">Youtube</a></td>
-                    <td><a href="#header">TOP</a></td>
+                    <td><a href="subscribe.php">Subscribe</a></td>
+                    <td><a href="#top">TOP</a></td>
+                    <td><a href="#bottom">BOTTOM</a></td>
                 </tr>
             </table>
         </div>
 
-        <div id="header">
-            <h1>Welcome! Check out some of my recommended TV shows down below!</h1>
-        </div> 
+        <!--<div id="header">
+            <h1>Welcome! Check out some of my recommended shows down below!</h1>
+        </div> -->
         
         <div id="tvshows_section">
             <h1 class id="tvshow_header">TV Shows, Movies, and YouTube Channels</h1>
@@ -117,7 +119,6 @@
 
             </div>
 
-            
             <!-- MOVIES -->
             <div id="movies">
             <h1> Movies </h1>
@@ -185,7 +186,7 @@
                     <h2>CollegeHumor</h2>
                     <p>CollegeHumor is a comedy website based in Los Angeles and owned by IAC/InterActiveCorp. The site features daily original comedy videos and articles created by its in-house writing and production team, in addition to user-submitted videos, pictures, articles and links. It was created by Josh Abramson and Ricky Van Veen. In early 2009, CollegeHumor's editorial staff wrote and starred in their own TV show, The CollegeHumor Show, on MTV. CollegeHumor is operated by CHMedia, a New York company that also owns Defunker, Sports Pickle, and Jest (formerly Today's Big Thing, also owned by IAC).</p>
                     <img src="collegehumor.jpg"/>
-                    <iframe width="750" height="520" src="https://www.youtube.com/embed/TybFtK6VTVo" allowfullscreen></iframe>
+                    <iframe width="750" height="520" src="https://www.youtube.com/embed/26xrK_Jy1eI" allowfullscreen></iframe>
                 </div>
 
                 <div id="comicstorian">
@@ -194,8 +195,27 @@
                     <img src="comicstorian.jpg"/>
                     <iframe width="750" height="520" src="https://www.youtube.com/embed/Svag_l1Y8zw" allowfullscreen></iframe>                
                 </div>
+                
+                <div id="bottom">
 
-                <h1 span id="footer">FRESH START</h1>
+                    <h1 span id="footer">FRESH START</h1>
+
+                </div>
+
+                <div id="random_show">
+
+                    <?php
+
+                        $total_selection = array("Scrubs", "Ip Man", "Game of Thrones", "VICE", "The Warrior",
+                        "King of the Hill", " Kurzgesagt", "Finding Dory", "Blood Diamond", "Full Metal Alchemist", "Breaking Bad",
+                        "Noisey", "Jimmy Kimmel Live", "Rick and Morty", "Sons of Anarchy", "Step Brothers", "The Boondocks");
+                        
+                        $random = array_rand($total_selection);
+                        $pick = $total_selection[$random];
+
+                        echo "<div style ='font:36px sans-serif; color:white'> Your secret randomly picked show from Lawrence's selection is: </div>" . "<div style ='font:36px sans-serif;color:white'> $pick </div>";
+                    ?> 
+                </div>
 
             </div>
 

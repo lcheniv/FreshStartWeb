@@ -52,7 +52,7 @@ body {
     background: #363636;
     width: auto;
     height: 500px;
-    margin-top: 43%;
+    margin-top: 55%;
 }
 
 #tvshow_header {
@@ -145,4 +145,16 @@ audio {
     letter-spacing: 30px;
     color: white;
     font-size: 160%;
+}
+
+#bottom {
+    background: #fa584c;
+    color: white;
+}
+
+#random_show {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 125%;
+    background: black;
 }

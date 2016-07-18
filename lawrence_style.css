@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("lawrence_headerbg.jpg");
+    background-image: url("lawrence_headerbg1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -44,17 +44,31 @@ body {
 
 #images {
     margin: auto;
-    margin-left: 23%;
-    margin-top: -8%;
+    margin-top: 18%;
+    margin-right: -3%;
+    float:right;
+}
+
+#images img:hover{
+    height: 50%;
+    width: 50%;
 }
 
 #header {
     text-align: center;
     font-family: sans-serif;
     font-size: 115%;
+    margin-top: 27%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+    font-weight: bold;
+    border: 10px solid black;
+    background : #8AE6D2;
 }
 
 #tvshows_section{
+    margin-top: 20%;
     background: #363636;
     width: auto;
     height: 500px;
@@ -87,7 +101,6 @@ audio {
     background: #efca81;
     width: auto;
     height: 10000px;
-    margin-top: 1%;
 }
 
 #tvshows_viewer h1 {
@@ -150,4 +163,20 @@ audio {
     letter-spacing: 30px;
     color: white;
     font-size: 160%;
+}
+
+#bottom {
+    background: #fa584c;
+    color: white;
+}
+
+#random_show {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 125%;
+    background: black;
+}
+
+#donut_hand {
+    margin-left: 20%;
 }
