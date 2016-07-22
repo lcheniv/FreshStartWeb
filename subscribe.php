@@ -12,9 +12,10 @@
 
             <form method="post" action="">
 
-                  <table>
+                <h2>Want to subscribe? Please fill out the following form: </h2>
 
-                        <h2>Want to subscribe? Please fill out the following form: </h2>
+                  <table>  
+
                         <tr>
                             <td colspan=2>
                                 <span id="font_edit"><strong>Tell us what you thought:</strong></span>
@@ -27,6 +28,7 @@
                                 <select name="sendto"> 
                                     <option value="lcheniv@gmail.com">Lawrence</option> 
                                     <option value="salil.depsi@gmail.com">Syed</option>
+                                    <br>
                                 </select>
                             </td>
                         </tr>
@@ -45,7 +47,7 @@
                         </tr>  
                         
                         <tr>
-                            <td colspan=2>Message:</td>
+                            <td colspan=2>Leave us a message:</td>
                         </tr> 
                         
                         <tr>

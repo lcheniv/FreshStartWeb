@@ -12,7 +12,11 @@ body {
     margin-top: 5%;
     margin-left: 9%;
     margin-right: 8%;
-    text-align: center;
+    text-align: center;  
+}
+
+table {
+    margin-left: 28%;
 }
 
 .font_edit {
@@ -22,8 +26,8 @@ body {
 #navbar {
     font-size: 150%;
     position: fixed;
-    margin-top: 13%;
-    margin-left: 40%;
+    margin-top: 6%;
+    margin-left: 34%;
 }
 
 #navbar a {
